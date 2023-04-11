@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;1,100;1,200&family=Poppins:ital,wght@0,200;1,100;1,200&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system,'Josefin','poppins', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-class{
+  max-width: 600px;
+  min-width: 450px;
+  border-radius: 2px;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 3px 5px 5px gray;
+}
+.main-class .container{
+  display: flex;
+}
+h1{
+  text-align: center;
+}
+.textt{
+ margin:1.5rem auto;
+ display: flex;
+ gap: 2.5rem;
+}
+.textt input{
+  border: none;
+  border-bottom: 1px solid;
+  max-width: 9rem;
+  max-width: 100PX;
+}
+.clearall{
+margin-left:33%;
+margin-bottom: 1rem;
+}
+.clearall button{
+  background-color: black;
+    color: white;
+    width: 50%;
+    height: 2rem;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    font-weight: 600; 
+}
+.btna{
+  width: 10rem;
+  height: 2rem;
+  background-color: rgb(115, 233, 115);
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.btnd {
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(234, 54, 8);
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+.list{
+  display:flex;
+  justify-content:center;
+  gap:8rem;
+  margin-top: 2rem;
+  border: none;
+}
+.head{
+  border: none;
+  background-color: rgb(96, 96, 212);
+  color: white;
+}
